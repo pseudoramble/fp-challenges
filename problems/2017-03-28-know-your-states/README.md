@@ -2,14 +2,14 @@
 
 "What is the capital of New Jersey?" demanded your teacher.
 "Oh oh um... Trenton?" you say.
-"Correct!" says the teacher. "Now, what is the least densily populated state in the USA?"
+"Correct!" says the teacher. "Now, what is the least densely populated state in the USA?"
 
 Many years later, long after your days of state-fact-memorization have passed, you stroll in to start your day.
-Your friend is eagarly waiting at your desk to greet you.
+Your friend is eagerly waiting at your desk to greet you.
 
 *Friend*: "Hey there! Do you remember what the capital of NJ is?"
 *You*: "Um... Trenton? Wait why?"
-*Friend*: "I dunno. What's the least densily populated state in the USA anyway?"
+*Friend*: "I dunno. What's the least densely populated state in the USA anyway?"
 
 Realizing you're long past your memorization prime, you decide to use your computer-hacking skills for great civic good
 as well as factoid-finding.
@@ -17,8 +17,8 @@ as well as factoid-finding.
 # The factoids to find
 
 1. What are the capitals of each state in the USA?
-1. What is the most densily-populated state?
-1. What is the least densily-populated state?
+1. What is the most densely-populated state?
+1. What is the least densely-populated state?
 1. What state(s) have a city that's both its capital and has the largest population?
 1. Find the land-area / water-area ratio of each state and order the states by this.
 1. Come up with your own question and answer it!
