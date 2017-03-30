@@ -33,7 +33,6 @@ A State object contains the following:
   state: string (the full name of the state like "Georgia")
   capitalCity: string (name of the state's capital like "Concord")
   largestCity: string (name of the state's most populated city like "Newark")
-  statehoodDate: string (the date when the state actually entered in the USA)
   population: int (the estimated population of the entire state)
   totalArea: int (the total area of the state's borders including water and land)
   landArea: int (the area of the state that is not water)
