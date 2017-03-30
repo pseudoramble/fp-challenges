@@ -1,0 +1,21 @@
+const fs = require('fs');
+const parseCsv = require('csv-parse/lib/sync');
+
+const testModule = require('./state-facts.js');
+const dataSet = fs.readFileSync('./USA-states.csv', 'utf-8');
+
+const numberify = value => parseInt(value.replace(/\(.*\)/, '').replace(',', '').trim());
+const toStateObj = ([state, abbrev, capitalCity, largestCity, statehoodDate, population, totalArea, totalLandArea, totalWaterArea, numReps]) => {
+  return {
+    state,
+    capitalCity,
+    largestCity,
+    statehoodDate,
+    population: numberify(population),
+    totalArea: numberify(totalArea),
+    landArea: numberify(totalLandArea),
+    waterArea: numberify(totalWaterArea)
+  }
+};
+
+testModule(parseCsv(dataSet).map(toStateObj));
